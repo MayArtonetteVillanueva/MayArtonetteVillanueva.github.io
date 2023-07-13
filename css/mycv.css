@@ -1,0 +1,90 @@
+body {
+    background-color: #b4c4f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #060707;
+}
+
+#banner {
+    background-color: #090c0b;
+    color: #000706;
+    padding: 30px;
+    background-image: url("https://media.istockphoto.com/id/865269224/vector/abstract-technology-background-communication-and-engineering-concept-vector-illustration.jpg?s=612x612&w=0&k=20&c=YcSoaD_kzjlOPD-lIH9btiVQNosdWZRPeqxxzMQ-XqU=");
+}
+
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+.menuitem {
+    width : 165px;
+    float : left; 
+    background-color: #87b4c4;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#menulist li a {
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+}
+
+h2 {
+    color: #060808;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+ 
+#section-about p {
+    text-align: justify;
+    text-align: center;
+}
+ 
+ 
+ 
+#servicelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+ 
+.serviceitem {
+    width : 30%;
+    float : left; 
+    background-color: #176B87;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+}
+ 
+#resumelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+ 
+.resumeitem {
+    width : 30%;
+    float : left; 
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: left;
+    cursor:pointer;
+}
+ 
